@@ -1,0 +1,27 @@
+{
+  "id": "securecrypt",
+  "name": "SecureCrypt",
+  "subtitle": "File encryption & decryption",
+  "category": "Software & AI",
+  "status": "Source implementation",
+  "icon": "securecrypt",
+  "summary": "A C++17 file-encryption application using libsodium, with a menu-driven interface, local accounts, and key import and export.",
+  "overview": "SecureCrypt is the portfolio name for the supplied SecureEncrypt source project. Its code separates account handling, binary file I/O, cryptographic operations, and the application menu into dedicated classes.",
+  "current_state": "C++ source, headers, build files, and a README were supplied. The source uses libsodium’s ChaCha20-Poly1305 API. This portfolio review does not establish a reproducible build or a security audit.",
+  "highlights": [
+    "C++17 source organized into User, FileHandler, CryptoManager, and SystemController classes.",
+    "File encryption and decryption, key generation, and key-file import/export.",
+    "CMake and Makefile build definitions in the supplied source."
+  ],
+  "next_focus": "Verify the build and review authentication, key handling, file-format integrity, and platform behavior before making production-security claims.",
+  "tags": [
+    "C++17",
+    "libsodium",
+    "File encryption"
+  ],
+  "repository_slug": "securecrypt",
+  "repository_url": "https://github.com/Rohansashankreddy07/securecrypt",
+  "sources": [
+    "363f51ea-3061-47db-b672-5abc69a8ae2c.zip — SecureEncrypt source"
+  ]
+}
